@@ -4,8 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Peak Apps Studio — Games</title>
-<meta http-equiv="refresh" content="0; url=block-bloom/">
-<style>body{margin:0;background:#0e1130;color:#fff;font:600 18px system-ui,sans-serif;display:grid;place-items:center;height:100vh}a{color:#7cf3ff}</style>
+<style>
+  body { margin: 0; min-height: 100vh; background: linear-gradient(#1b1d4a, #0d0f2a); color: #fff;
+         font: 600 17px system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; display: grid; place-items: center; }
+  main { width: min(92vw, 520px); padding: 32px 0; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  p { color: rgba(255,255,255,.7); margin: 0 0 22px; font-weight: 500; }
+  a.game { display: block; padding: 18px 20px; margin-bottom: 14px; border-radius: 18px; text-decoration: none; color: #fff;
+           background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); }
+  a.game:hover { background: rgba(255,255,255,.13); }
+  a.game b { font-size: 20px; display: block; margin-bottom: 4px; }
+  a.game span { color: rgba(255,255,255,.72); font-weight: 500; font-size: 15px; }
+</style>
 </head>
-<body><a href="block-bloom/">Play Block Bloom</a></body>
+<body>
+<main>
+  <h1>Peak Apps Studio games</h1>
+  <p>HTML5 puzzle games built for YouTube Playables.</p>
+  <a class="game" href="block-bloom/"><b>Block Bloom</b><span>Drag blocks onto the board, clear lines, chain combos.</span></a>
+  <a class="game" href="jelly-merge/"><b>Jelly Merge</b><span>Drop jellies, match two of a kind and grow them into giants.</span></a>
+</main>
+</body>
 </html>
